@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Super to do list</title>
+    <img src="" alt="">
+    <link rel="stylesheet" href="styles/main.css">
+
+</head>
+<body>
+    <body onload="afficher5Article(viderMain)"> 
+    <!-- Notre navBar avec 1 logo + 2 boutons-->
+    <nav>
+        <img src="images/logoDRFD.png" alt="">
+
+        <div class=" boutonNavBar">
+            <a href="#" class="bouton" onclick="viderMain()">Ajouter un article</a><element onclick="afficher5Article"> 
+            <a href="#" class="bouton" onclick="toutAfficher()">Tout afficher</a> <element onclick="afficher5Article"> 
+        </div>
+    </nav>
+
+    <!-- Mon main avec 1 <h1> + 5 <div> contenant un titre d'article chacun -->
+    <main id="main">
+        <h1>Ma to Do List</h1>
+        <div class="todolist">
+            <div class="todolistDiv">
+                <a href="#">Tire1</a>
+            </div>
+            <div class="todolistDiv">
+                <a href="#">Titre2</a>
+            </div>
+            <div class="todolistDiv">
+                <a href="#">Titre3</a>
+            </div>
+            <div class="todolistDiv">
+                <a href="#">Titre4</a>
+            </div>
+            <div class="todolistDiv">
+                <a href="#">Titre5</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Mon footer -->
+    <footer>Veronique, En Formation Developpeur Web</footer>
+
+
+
+    <!-- CDN de JQuery + fichier JS + import de la classe Article-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/modele/Article.js"></script>
+</body>
+</html>

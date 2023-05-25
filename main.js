@@ -3,19 +3,19 @@ var tableau = Object.keys(article).map(function(cle) { return [article[cle]];});
 var listeArticles = [];
 function afficher5Article(){
  
-    var article = new Article(" Mes articles", "ceci est une description");
+    var article = new Article(" Web statique", "ceci est une description");
     listeArticles.push(article);
 
-    var article = new Article("Avoir mon diplôme developpeuse web", "ceci est une description");
+    var article = new Article("Algo", "ceci est une description");
     listeArticles.push(article);
 
-    var article = new Article("Acquérir les bonnes bases du développement web", "ceci est une description");
+    var article = new Article("Base de données", "ceci est une description");
     listeArticles.push(article);
 
-    var article = new Article("Maitrier le JS", "ceci est une description");
+    var article = new Article("Maquettage", "ceci est une description");
     listeArticles.push(article);
 
-    var article = new Article("Maitrier le JS", "ceci est une description");
+    var article = new Article("Symfony", "ceci est une description");
     listeArticles.push(article);
     console.log(onclick);
 
